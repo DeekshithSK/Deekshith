@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>work</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="menu.js" defer></script>
+  </head>
+  <body class="bg-white text-black" style="min-width: 300px">
+    
+    <menu
+      class="w-full h-full fixed translate-x-full flex flex-col justify-center items-center gap-y-8 bg-white z-30 transition-transform"
+      style="min-width: 300px">
+      <button id="close-menu-btn" class="absolute top-4 right-4">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          class="w-14 h-14 fill-black">
+          <path
+            d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path>
+        </svg>
+      </button>
+     
+
+    </menu>
+    
+    <header class="flex p-4 justify-between items-center">
+      <div class="flex items-center gap-x-4">
+        <a
+          href=""
+          class="p-2 border-8 border-red-600 text-red-600 text-5xl font-bold">
+          EM
+        </a>
+        <div class="hidden lg:block">
+          
+          <h1 class="text-red-600 text-3xl font-bold">Employee management.</h1>
+        </div>
+      </div>
+      <div class="hidden lg:flex items-center gap-x-8"> 
+      </div>
+      <button id="open-menu-btn" class="block lg:hidden">
+        
+      </button>
+    </header>
+    
+    <section class="flex flex-col md:flex-row">
+      <div class="relative flex-1 flex justify-center items-center">
+        
+        <div class="w-full h-full absolute top-0 left-0 bg-red-600/80"></div>
+        <div
+          class="absolute flex flex-col items-center gap-y-8 text-center text-white">
+          <div class="w-4/5 flex flex-col gap-y-4">
+            <p class="text-xl italic">Are you</p>
+            <h2 class="text-4xl font-extrabold">ADMIN</h2>
+            <p>
+              Update your employees details
+            </p>
+          </div>
+          <a
+            href="page2.html"
+            class="p-2 border-2 border-white hover:bg-white text-white hover:text-red-600/80 font-semibold transition-colors">
+            OPEN
+          </a>
+          
+        </div>
+      </div>
+      <div class="relative flex-1 flex justify-center items-center">
+        <img
+         
+          class="w-full h-full object-cover"
+          style="height: 500px" />
+        <div class="w-full h-full absolute top-0 left-0 bg-blue-600/80"></div>
+        <div
+          class="absolute flex flex-col items-center gap-y-8 text-center text-white">
+          <div class="w-4/5 flex flex-col gap-y-4">
+            <p class="text-xl italic">Are you</p>
+            <h2 class="text-4xl font-extrabold">EMPLOYEE</h2>
+            <p>
+              check your profile
+            </p>
+          </div>
+          <a
+            href="page3.html"
+            class="p-2 border-2 border-white hover:bg-white text-white hover:text-blue-600/80 font-semibold transition-colors">
+            OPEN
+          </a>
+        </div>
+      </div>
+  </body>
+</html>
